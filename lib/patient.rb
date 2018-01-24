@@ -12,10 +12,10 @@ class Patient
     appointment.patient = self
   end
 
-  def doctor
-    @appointments.collect do |doctor|
-      appointment.doctor.name
-    end
+#  def doctor
+#    @appointments.collect do |doctor|
+#      appointment.doctor.name
+#    end
   end
 
 
