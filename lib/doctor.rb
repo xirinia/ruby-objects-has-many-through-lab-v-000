@@ -1,6 +1,6 @@
 require 'pry'
 class Doctor
-  attr_accessor :name, :appointments, :patients
+  attr_accessor :name, :appointments, :patient
 
   def initialize(name)
     @name = name
@@ -15,7 +15,7 @@ class Doctor
 
   def patients
     self.appointments.collect do |appointment|
-      appointment.patients  = self
+      appointment.patient  = self
     end
   end
 
