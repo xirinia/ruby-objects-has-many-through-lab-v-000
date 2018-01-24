@@ -8,8 +8,4 @@ class Appointment
 
   end
 
-  def doctor(doctor_name)
-    self.doctor = doctor_name
-  end
-
 end
